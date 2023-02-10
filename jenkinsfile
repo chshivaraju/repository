@@ -1,0 +1,13 @@
+node
+{
+    stage 'download_from_git'
+    sh 'echo download'
+    stage 'execute_test'
+    sh 'echo test'
+    stage 'package'
+    sh 'echo package'
+    stage 'deploy'
+    sh 'echo deploy'
+    stage 'executeansible'
+    sh 'echo ansible'
+}
